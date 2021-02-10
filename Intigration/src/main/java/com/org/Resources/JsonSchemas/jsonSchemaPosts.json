@@ -1,0 +1,16 @@
+{
+  "posts":[
+    {
+      "id": 4,
+      "title": "Post1555",
+      "author": "Bharathi Sharma",
+      "price": 14.22,
+      "Location": {
+        "country_id": 12,
+        "state": "UP",
+        "city": "Meerut",
+        "country_name": "India"
+      }
+    }
+  ]
+}

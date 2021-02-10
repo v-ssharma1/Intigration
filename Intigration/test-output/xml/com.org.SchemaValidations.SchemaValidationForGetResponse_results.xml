@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIValidation"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.778">
+  <properties />
+  
+  
+            <testcase name="givenUrlForComments_whenJsonResponseConformsToSchema_thenCorrect" time="0.441" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForComments_whenValidatesResponseWithStaticSettings_thenCorrect" time="0.030" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForDetails_whenJsonResponseConformsToSchema_thenCorrect" time="0.025" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForDetails_whenValidatesResponseWithStaticSettings_thenCorrect" time="0.025" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForProfiles_whenValidatesResponseWithStaticSettings_thenCorrect" time="0.041" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrl_whenJsonResponseConformsToSchema_thenCorrect" time="0.041" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrl_whenValidatesResponseWithStaticSettings_thenCorrect" time="0.022" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForProfiles_whenJsonResponseConformsToSchema_thenCorrect" time="0.030" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForComments_whenValidatesResponseWithInstanceSettings_thenCorrect" time="0.037" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForProfiles_whenValidatesResponseWithInstanceSettings_thenCorrect" time="0.026" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForDetails_whenValidatesResponseWithInstanceSettings_thenCorrect" time="0.037" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+                <testcase name="givenUrlForPosts_whenValidatesResponseWithInstanceSettings_thenCorrect" time="0.023" classname="com.org.SchemaValidations.SchemaValidationForGetResponse" />
+      
+</testsuite>

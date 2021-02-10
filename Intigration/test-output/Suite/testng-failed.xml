@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="4" name="APIValidation(failed)" parallel="tests">
+    <classes>
+      <class name="com.org.BasicAuthenticationValidation.BasicAutheticationByUserIDAndPassword">
+        <methods>
+          <include name="setBaseURI"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="autheticationByUserIDAndPassword"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.org.BasicAuthenticationValidation.BasicAutheticationByUserIDAndPassword -->
+    </classes>
+  </test> <!-- APIValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

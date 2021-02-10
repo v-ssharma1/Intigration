@@ -1,0 +1,48 @@
+How to download files by rest assured
+https://www.eviltester.com/2019/01/how-to-download-a-file-with-rest-assured.html
+https://www.youtube.com/watch?v=dw6DeR4ic1g
+http://restservicestesting.blogspot.com/2016/10/verifying-file-download-using-rest.html
+
+How to upload a file by RestAssured->
+https://blog.jayway.com/2011/09/15/multipart-form-data-file-uploading-made-simple-with-rest-assured/
+
+SSL test by restassured->
+https://stackoverflow.com/questions/36352033/how-to-make-https-get-call-with-certificate-in-rest-assured-java
+https://github.com/rest-assured/rest-assured/blob/master/examples/rest-assured-itest-java/src/test/java/io/restassured/itest/java/SSLITest.java
+https://stackoverflow.com/questions/46471465/how-to-access-ssl-certificate-secured-rest-api-with-rest-assured
+https://www.experts-exchange.com/questions/28917231/SSL-rest-assured.html
+https://searchcode.com/codesearch/view/15772057/
+
+Framework design-> Chapter 17 : Excel Integration with Rest Assured Test
+https://www.oreilly.com/library/view/rest-api-automation/9781789133813/
+
+Cucumber setup->
+https://developer.ibm.com/recipes/tutorials/api-testing-framework-using-bdd-approach-through-cucumber-and-rest-assured/
+https://www.youtube.com/watch?v=TyKYvhtZaXM
+https://www.youtube.com/results?search_query=%23executeautomation
+
+
+Example of test APIs for automation(API document):
+https://ergast.com/mrd/
+
+-----
+Command to run the servers:
+go to the folder where your server is located then run the below command:
+json-server server_name.json
+Example: json-server db_Sau.json
+https://www.youtube.com/watch?v=1zkgdLZEdwM
+-------
+Response validation by Json path and Jacson library is described in this project and Json handling.
+Use of JASONpath-> This eats a lot of memory hence not recomended for boig or medium size responses.
+Gson-> if response is not very big and complex then use this.
+Jacson-> if the response is very complex use this.
+---
+
+Authentication->
+https://www.toolsqa.com/rest-assured/authentication-and-authorization-in-rest-webservices/
+http://restapi.demoqa.com/authentication/CheckForAuthentication
+Username: ToolsQA
+Password: TestPassword
+https://www.youtube.com/watch?v=w-1EvCAszgE -> (Basic -> Preemptive and challenged)
+Check Twitter example for oAuth, JIra for JSession(cookies), google API - aap key
+For OAuth we need -> Customer key, Customer Secret, Access Tocken, Access Tocken Secret.

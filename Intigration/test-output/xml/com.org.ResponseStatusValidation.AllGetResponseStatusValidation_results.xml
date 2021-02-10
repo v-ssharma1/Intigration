@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIValidation"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.475">
+  <properties />
+  
+  
+            <testcase name="getProfileValidation" time="0.019" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+                <testcase name="getPostsValidationForSpecificID" time="0.018" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+                <testcase name="getCommentsValidationForSpecificID" time="0.065" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+                <testcase name="getPostsValidation" time="0.032" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+                <testcase name="getCommentsValidation" time="1.292" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+                <testcase name="getDetailsValidation" time="0.049" classname="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" />
+      
+</testsuite>

@@ -1,0 +1,22 @@
+{
+"details":{
+  "firstName": "Saurabh",
+  "lastName": "Saurabh",
+  "age": 29,
+  "address": {
+    "streetAddress": "142, Brahampuri",
+    "city": "Meerut",
+    "postalCode": "250002"
+  },
+  "phoneNumbers": [
+    {
+      "type": "iPhone10",
+      "number": "311-975-3902"
+    },
+    {
+      "type": "iPhone101",
+      "number": "311-975-39021"
+    }
+  ]
+}
+}
